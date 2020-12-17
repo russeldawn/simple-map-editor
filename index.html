@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Mini Map Editor</title>
+</head>
+<body>
+    <div class="display-preview">
+        <div class="map-display-inputs">
+            <div class="display-inputs">
+                <label for="input-height">Height</label>
+                <input type="text" name="input-height" id="input-height">
+            </div>
+            <div class="display-inputs">
+                <label for="input-width">Width:</label>
+                <input type="text" name="input-width" id="input-width">
+            </div>
+
+            <div class="display-inputs">
+                <input type="button" id="submit-display-size" value="submit">
+            </div>
+
+            <div class="display-inputs">
+                <input type="button" id="export-map" value="export">
+            </div>
+
+        </div>
+        <div id="map-preview">
+            <div>
+                <table cellspacing="0" id="field1">
+                    <tr>
+                        <td class="sand-image" id="item1a"></td>
+                        <td class="sand-image" id="item1b"></td>
+                        <td class="sand-image" id="item1c"></td>
+                        <td class="sand-image" id="item1d"></td>
+                        <td class="sand-image" id="item1e"></td>
+                    </tr>
+                    <tr>
+                        <td class="sand-image" id="item2a"></td>
+                        <td class="sand-image" id="item2b"></td>
+                        <td class="sand-image" id="item2c"></td>
+                        <td class="sand-image" id="item2d"></td>
+                        <td class="sand-image" id="item2e"></td>
+                    </tr>
+                    <tr>
+                        <td class="sand-image" id="item3a"></td>
+                        <td class="sand-image" id="item3b">
+                            <div class="grass-image"></div>
+                        </td>
+                        <td class="sand-image" id="item3c">
+                            <div class="barrel-image"></div>
+                        </td>
+                        <td class="sand-image" id="item3d">
+                            <div class="tree-image"></div>
+                        </td>
+                        <td class="sand-image" id="item3e"></td>
+                    </tr>
+                    <tr>
+                        <td class="sand-image" id="item4a"></td>
+                        <td class="sand-image" id="item4b"></td>
+                        <td class="sand-image" id="item4c"></td>
+                        <td class="sand-image" id="item4d"></td>
+                        <td class="sand-image" id="item4e"></td>
+                    </tr>
+                    <tr>
+                        <td class="sand-image" id="item5a"></td>
+                        <td class="sand-image" id="item5b"></td>
+                        <td class="sand-image" id="item5c"></td>
+                        <td class="sand-image" id="item5d"></td>
+                        <td class="sand-image" id="item5e"></td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <table cellspacing="0" id="field2">
+                    <tr>
+                        <td class="sand-image" id="item1a"><div class="grass-image"></div></td>
+                        <td class="sand-image" id="item1b"><div class="grass-image"></div></td>
+                        <td class="sand-image" id="item1c"><div class="grass-image"></div></td>
+                        <td class="sand-image" id="item1d"><div class="grass-image"></div></td>
+                        <td class="sand-image" id="item1e"><div class="grass-image"></div></td>
+                    </tr>
+                    <tr>
+                        <td class="sand-image" id="item2a"><div class="grass-image"></div></td>
+                        <td class="sand-image" id="item2b"><div class="grass-image"></div></td>
+                        <td class="sand-image" id="item2c"><div class="grass-image"></div></td>
+                        <td class="sand-image" id="item2d"><div class="grass-image"></div></td>
+                        <td class="sand-image" id="item2e"><div class="grass-image"></div></td>
+                    </tr>
+                    <tr>
+                        <td class="sand-image" id="item3a"><div class="grass-image"></div></td>
+                        <td class="sand-image" id="item3b"><div class="grass-image"></div></td>
+                        <td class="sand-image" id="item3c"><div class="grass-image"></div></td>
+                        <td class="sand-image" id="item3d"><div class="grass-image"></div></td>
+                        <td class="sand-image" id="item3e"><div class="grass-image"></div></td>
+                    </tr>
+                    <tr>
+                        <td class="sand-image" id="item4a"><div class="grass-image"></div></td>
+                        <td class="sand-image" id="item4b"><div class="grass-image"></div></td>
+                        <td class="sand-image" id="item4c"><div class="grass-image"></div></td>
+                        <td class="sand-image" id="item4d"><div class="grass-image"></div></td>
+                        <td class="sand-image" id="item4e"><div class="grass-image"></div></td>
+                    </tr>
+                    <tr>
+                        <td class="sand-image" id="item5a"><div class="grass-image"></div></td>
+                        <td class="sand-image" id="item5b"><div class="grass-image"></div></td>
+                        <td class="sand-image" id="item5c"><div class="grass-image"></div></td>
+                        <td class="sand-image" id="item5d"><div class="grass-image"></div></td>
+                        <td class="sand-image" id="item5e"><div class="grass-image"></div></td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+    <script src="js/script.js" charset="utf-8"></script>
+</body>
+</html>

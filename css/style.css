@@ -1,0 +1,42 @@
+.map-display-inputs {
+    padding-bottom: 20px;
+}
+
+#map-preview {
+    display: flex;
+}
+
+.display-inputs {
+    padding: 5px;
+}
+
+.grass-image {
+    padding: 0;
+    margin: 0;
+    height: 45px;
+    width: 45px;
+    background-image:url('../assets/grass.png');
+}
+.sand-image {
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid #a9a9a969; */
+    height: 45px;
+    width: 45px;
+    background-image:url('../assets/sand.png');
+}
+.barrel-image {
+    height: 45px;
+    width: 45px;
+    background-image:url('../assets/barrel.png');
+}
+.tree-image {
+    height: 45px;
+    width: 45px;
+
+    background-image:url('../assets/tree.png');
+}
+
+#field1 {
+    padding-right: 50px;
+}
